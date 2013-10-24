@@ -14,13 +14,14 @@ You're creating a database for a small-time CRM (Customer Relationship Managemen
 3. Add a new customer with a `business_name` of Apple, `num_employees` of 35100, `account_value` of 23000000
 4. Add a new customer with a `business_name` of Ma&Pa, `num_employees` of 15, `account_value` of 1200
  
-Now, practice querying for results
+Now, practice querying for results:
+
 1. Select all customers with an account value of greater than 10000
 2. Select only names of businesses that have less than 2000 employees
 3. Select all customers sorted by number of employees (ascending, or lowest to highest)
 4. Select the id of customers whose business name's begin with 'A' (hint: http://docs.mongodb.org/manual/reference/operator/query/where/#op._S_where)
 
-Let's modify some of our records
+Let's modify some of our records:
 
 1. Add a `rep` for each record in the collection:
   * For Acme, rep name: 'Wile E. Coyote', employee #: 4311
