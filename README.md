@@ -21,6 +21,7 @@ Now, practice querying for results
 4. Select the id of customers whose business name's begin with 'A' (hint: http://docs.mongodb.org/manual/reference/operator/query/where/#op._S_where)
 
 Modify some of our records
+
 1. Add a `rep` for each record in the collection:
   * For Acme, rep name: 'Wile E. Coyote', employee #: 4311
   * For Apple, rep name: 'Fan Boi', employee #: 1216
